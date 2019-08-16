@@ -1,0 +1,20 @@
+html{
+	background-image: url(/images/jaguar-xe.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+.container{	
+		background-color: rgba(0,0,0,.5);
+		padding: 30px;
+		margin: 50px 50px;
+		width: 70%;
+		font-family: 'Roboto', sans-serif;
+		color: white;
+}
+@media screen and (min-width: 600px){
+	.container {
+		width: 600px;
+	}
+}
